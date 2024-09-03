@@ -1,0 +1,85 @@
+.underfield{
+  width: 192rem;
+
+  &__inner{
+    display: block;
+    width: 192rem;
+    height: 66.7rem;
+    margin: 0 auto;
+    padding-top: 10rem;
+    padding-left: 35rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bg.png);
+
+    @include respond(phone){
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+
+    }
+
+    @include respond(land){
+
+    }
+  }
+
+  &__title{
+    display: block;
+    width: 50rem;
+
+    @include respond(phone){
+      width: 194px;
+
+    }
+
+    @include respond(port){
+
+    }
+
+    @include respond(land){
+
+    }
+  }
+
+  &__text{
+    display: block;
+    width: 25.5rem;
+    margin-left: 12rem;
+    margin-bottom: 5rem;
+
+    @include respond(phone){
+      width: 209px;
+
+    }
+
+    @include respond(port){
+
+    }
+
+    @include respond(land){
+
+    }
+  }
+
+  &__btn{
+    display: block;
+    width: 20rem;
+    margin-left: 14rem;
+
+    @include respond(phone){
+
+      text-align: left;
+    }
+
+    @include respond(port){
+
+    }
+
+    @include respond(land){
+
+    }
+  }
+}

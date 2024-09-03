@@ -1,0 +1,107 @@
+.header{
+  width: 192rem;
+
+  &__wrap{
+    display: block;
+    width: 192rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+
+    @include respond(phone){
+      display: block;
+      width: 60rem;
+      margin: 0 auto;
+      margin-bottom: 10rem;
+    }
+
+    @include respond(port){
+      display: block;
+      width: 90rem;
+      margin: 0 auto;
+      margin-bottom: 10rem;
+    }
+
+    @include respond(land){
+
+    }
+  }
+
+  &__group{
+    width: 138rem;
+    margin: 0 auto;
+    margin-top: 4.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include respond(phone){
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+
+    }
+  }
+
+  &__logo{
+    display: block;
+    width: 8.5rem;
+    height: 2.68rem;
+
+
+  }
+
+  &__navigation{
+    width: 96rem;
+    display: block;
+
+    @include respond(phone){
+      display: none;
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      display: none;
+      width: 90rem;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+
+    }
+  }
+
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  &__contact{
+    display: block;
+    width: 13.8rem;
+    text-align: left;
+
+    @include respond(phone){
+      width: 20rem;
+      margin: 0 auto;
+    }
+
+    @include respond(port){
+      width: 20rem;
+      margin: 0 auto;
+    }
+
+    @include respond(land){
+      width: 20rem;
+      margin: 0 auto;
+    }
+  }
+}
